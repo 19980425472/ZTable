@@ -1,0 +1,41 @@
+{
+  "name": "@zgm-npm/z-table",
+  "version": "1.0.0",
+  "description": "A Vue 3 table component based on Element Plus",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/types/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "vue",
+    "element-plus",
+    "table"
+  ],
+  "author": "墨痕@雨声碎 <3578422113@qq.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/19980425472/ZTable.git"
+  },
+  "peerDependencies": {
+    "element-plus": "^2.0.0",
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.0",
+    "element-plus": "^2.0.0",
+    "typescript": "^4.0.0",
+    "vite": "^3.2.11",
+    "vue": "^3.0.0"
+  }
+
+}
