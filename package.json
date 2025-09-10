@@ -1,6 +1,6 @@
 {
   "name": "@zgm-npm/z-table",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Vue 3 table component based on Element Plus",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -37,5 +37,4 @@
     "vite": "^3.2.11",
     "vue": "^3.0.0"
   }
-
 }
