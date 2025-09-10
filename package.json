@@ -1,6 +1,6 @@
 {
   "name": "@zgm-npm/z-table",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A Vue 3 table component based on Element Plus",
   "main": "dist/index.umd.js",
   "module": "dist/index.es.js",
@@ -30,6 +30,7 @@
     "element-plus": "^2.0.0",
     "vue": "^3.0.0"
   },
+  "dependencies": {},
   "devDependencies": {
     "@vitejs/plugin-vue": "^3.0.0",
     "element-plus": "^2.0.0",
