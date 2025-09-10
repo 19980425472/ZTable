@@ -510,6 +510,8 @@ app.use(ZTable, {
   // 其他默认配置...
 });
 ```
+
+```javascript
 const cityOptions = [
   {
     value: "beijing",
@@ -944,8 +946,9 @@ const batchUpdateStatus = () => {
 const handleCellClick = (row: TableItem, column: any) => {
   // 单元格点击事件处理
 };
+```
 </script>
-
+```css
 <style scoped>
 .table-container {
   padding: 16px;
@@ -979,7 +982,7 @@ const handleCellClick = (row: TableItem, column: any) => {
   height: 70px !important;
 }
 </style>
-
+```
 
 ## API
 
